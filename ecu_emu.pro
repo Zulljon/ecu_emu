@@ -1,4 +1,4 @@
-update=Пн 23 окт 2017 13:29:09
+update=Пт 03 ноя 2017 12:24:49
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=/mnt/DATA2/pCloud/job/KiCAD/libs
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -62,3 +62,16 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=stm32
+LibName34=irf7201pbf
+LibName35=fan73711
+LibName36=E-L9637D
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=/home/dan/git/KiCAD/ECU_emu/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
