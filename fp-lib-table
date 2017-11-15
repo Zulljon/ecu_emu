@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name zulljon)(type KiCad)(uri /mnt/DATA2/pCloud/job/KiCAD/zpkl/footprints.pretty)(options "")(descr "user lib"))
+  (lib (name DigiKey)(type KiCad)(uri /mnt/DATA2/pCloud/job/KiCAD/digikey-kicad-library/digikey-footprints.pretty/)(options "")(descr "digikey store"))
+)

@@ -642,7 +642,6 @@ F 3 "" H 3300 7250 50  0001 C CNN
 	1    3300 7250
 	1    0    0    -1  
 $EndComp
-NoConn ~ 11000 3650
 Wire Wire Line
 	750  7050 2250 7050
 Wire Wire Line
