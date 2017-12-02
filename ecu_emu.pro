@@ -1,4 +1,4 @@
-update=Сб 02 дек 2017 12:49:24
+update=Сб 02 дек 2017 15:25:17
 version=1
 last_client=kicad
 [cvpcb]
@@ -69,7 +69,7 @@ LibName37=bsp742r
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=/home/dan/git/KiCAD/ecu_emu/
+PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew

@@ -167,12 +167,12 @@ U 1 1 59EDE974
 P 10450 2650
 F 0 "J2" H 10450 2850 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 10450 2350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 10450 2650 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_1x04_Pitch2.54mm" H 10450 2650 50  0001 C CNN
 F 3 "" H 10450 2650 50  0001 C CNN
 	1    10450 2650
 	-1   0    0    1   
 $EndComp
-Text Label 10250 2750 2    60   ~ 0
+Text Label 10250 2450 2    60   ~ 0
 SWD_+3V3
 Text Label 3450 6600 0    60   ~ 0
 SWD_+3V3
@@ -416,13 +416,13 @@ $EndComp
 $Comp
 L GND #PWR09
 U 1 1 59EED690
-P 10050 2200
-F 0 "#PWR09" H 10050 1950 50  0001 C CNN
-F 1 "GND" H 10050 2050 50  0000 C CNN
-F 2 "" H 10050 2200 50  0001 C CNN
-F 3 "" H 10050 2200 50  0001 C CNN
-	1    10050 2200
-	-1   0    0    1   
+P 10200 2800
+F 0 "#PWR09" H 10200 2550 50  0001 C CNN
+F 1 "GND" H 10200 2650 50  0000 C CNN
+F 2 "" H 10200 2800 50  0001 C CNN
+F 3 "" H 10200 2800 50  0001 C CNN
+	1    10200 2800
+	1    0    0    -1  
 $EndComp
 Text Label 5950 6150 2    60   ~ 0
 ECU_HALL_sensor-
@@ -686,10 +686,6 @@ Connection ~ 3000 7500
 Wire Wire Line
 	750  7000 750  7050
 Connection ~ 1150 7050
-Wire Wire Line
-	10050 2200 10050 2450
-Wire Wire Line
-	10050 2450 10250 2450
 Connection ~ 6000 6150
 Wire Wire Line
 	3150 3450 3250 3450
@@ -924,7 +920,7 @@ U 1 1 5A231C89
 P 1950 5250
 F 0 "U3" H 2500 5400 50  0000 C CNN
 F 1 "BSP742R" H 2500 4800 50  0000 C CNN
-F 2 "zulljon:SOIC127P600X175-8N" H 2500 4700 50  0001 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 2500 4700 50  0001 C CNN
 F 3 "http://docs-europe.electrocomponents.com/webdocs/1074/0900766b8107439c.pdf" H 2500 4600 50  0001 C CNN
 F 4 "Smart High-Side Power Switch 34V DSO-8 ISP742RI, Intelligent Power Switch High Side Switch, 0.4A, -10 ??? 16V, 8-Pin, PG-DSO-8-24" H 2500 4500 50  0001 C CNN "Description"
 F 5 "RS" H 2500 4400 50  0001 C CNN "Supplier_Name"
@@ -966,4 +962,8 @@ F 3 "" H 1900 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1950 5250
+Wire Wire Line
+	10250 2750 10200 2750
+Wire Wire Line
+	10200 2750 10200 2800
 $EndSCHEMATC
