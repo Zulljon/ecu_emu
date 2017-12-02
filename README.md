@@ -2,7 +2,8 @@
 PCB part of project (source codes unavailable!)
 
 ## Scheme
-![scheme_svg](ecu_emu.sch.svg) 
+![scheme_svg](ecu_emu.sch.svg)
+![scheme_pdf](ecu_emu.pdf)
 
 ## PCB
 ![FRONT_side_png](ecu_emu_front.png)
